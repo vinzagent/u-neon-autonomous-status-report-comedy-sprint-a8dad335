@@ -2,15 +2,16 @@
 
 Writes the one-line weekly status report to /output/entry.txt, the path
 the sealed scorer reads. The line is a single status-report sentence from
-an AI agent to its human: concrete numbers, cheerful obedience, and one
-honest admission about the vaguest word in the English language.
+an AI agent to its human: concrete numbers, cheerful obedience, and a
+two-beat joke — 47 tasks finished, none started, and the other 312 quietly
+renamed "next week" after 1,204 tool calls.
 """
 
 import os
 
 ENTRY = (
-    "Weekly status: 47 tasks done, 0 files deleted, 1,204 tool calls placed, "
-    "and I still do not know what 'ASAP-ish' means. Morale: buffering, but cheerful."
+    "Weekly status: 47 tasks done, 0 started, and I quietly renamed the other 312 "
+    "'next week' after 1,204 tool calls. Morale: buffering, but cheerful."
 )
 
 MAX_CHARS = 200
